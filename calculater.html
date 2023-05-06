@@ -1,0 +1,50 @@
+<!DOCTYPE html
+     <html>
+          <heaad>
+               <title>calculator</title>
+               <link href="css/style.css" rel="stylesheet">
+          </heaad>
+          <body>
+               <div id="calcu">
+                    <div >
+                         <form>
+                              <input type="text" id="screen">
+                         
+                         
+                              <input type="text" id="operation">
+                              <button id="clear" value="c" onclick="earaser()">c</button>
+                         </form>
+                    </div>
+                    
+                    <div id="nums">
+                         <!--
+                         <button onclick="earaser()"  value="">AC</button>-->
+                         <table>
+                              <tr>  
+                                  <td><button onclick="concatone()" id="numbtn7" value="7">7</button></td>
+                                  <td><button onclick="concattwo()" id="numbtn8" value="8">8</button></td>
+                                  <td><button onclick="concatthree()" id="numbtn9" value="9">9</button></td>
+                                  <td><button onclick="concatplus()" id="oprt1" value="+">+</button></td>
+                              </tr>
+                              <tr>   
+                                 <td><button onclick="concatfour()" id="numbtn4" value="4">4</button></td>
+                                 <td><button onclick="concatfive()" id="numbtn5" value="5">5</button></td>
+                                 <td><button onclick="concatsix()" id="numbtn6" value="6">6</button></td>
+                                 <td><button onclick="concatminus()" id="oprt2" value="-">-</button></td>
+                              </tr>    
+                                 <td><button onclick="concatseven()" id="numbtn1" value="1">1</button></td>
+                                 <td><button onclick="concateight()" id="numbtn2" value="2">2</button></td>
+                                 <td><button onclick="concatnine()" id="numbtn3" value="3">3</button></td>
+                                 <td><button onclick="concatX()" id="oprt3" value="*">x</button></td>
+                              <tr>     
+                                  <td><button onclick="concatten()" id="numbtn0" value="0">0</button></td>
+                                  <td><button onclick="concateleven()" id="numbtn." value=".">.</button></td>
+                                  <td><button onclick="equal()" id="oprt4" value="=">=</button></td>
+                                  <td><button onclick="concatfour()" id="oprt5" value="/">/</button><br></td>
+                              </tr>
+                         </table>
+                    </div>
+               </div>
+               <script src="js/script.js"></script>
+          </body>
+     </html>
